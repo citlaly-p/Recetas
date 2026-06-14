@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recetas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="recetas.xsd">
+
+    <receta>
+        <nombre>Ensalada Mediterránea</nombre>
+        <categoria>Entrada</categoria>
+        <tiempo>15 min</tiempo>
+        <dificultad>Fácil</dificultad>
+        <porciones>2 personas</porciones>
+        <calorias>150 kcal</calorias>
+        <imagen>../img/ensalada-mediterránea.jpg</imagen>
+        <descripcion>Una ensalada fresca y colorida con los sabores intensos del Mediterráneo: queso feta cremoso, aceitunas negras, tomates cherry jugosos y un aderezo de aceite de oliva. Perfecta como entrada o comida ligera.</descripcion>
+        <nutricion>
+            <grasas>12g</grasas>
+            <proteina>7g</proteina>
+            <carbohidratos>3g</carbohidratos>
+        </nutricion>
+        <ingredientes>
+            <ingrediente>200 g de tomates cherry</ingrediente>
+            <ingrediente>150 g de pepino</ingrediente>
+            <ingrediente>100 g de queso feta</ingrediente>
+            <ingrediente>50 g de aceitunas negras</ingrediente>
+            <ingrediente>½ cebolla morada</ingrediente>
+            <ingrediente>2 cucharadas de aceite de oliva</ingrediente>
+            <ingrediente>1 cucharada de vinagre balsámico</ingrediente>
+            <ingrediente>Orégano al gusto</ingrediente>
+            <ingrediente>Sal y pimienta negra</ingrediente>
+        </ingredientes>
+        <pasos>
+            <paso>Lava y corta los tomates cherry por la mitad.</paso>
+            <paso>Corta el pepino en medias lunas y la cebolla morada en juliana fina.</paso>
+            <paso>Desmorona el queso feta en trozos medianos con las manos.</paso>
+            <paso>En un bowl grande, combina los tomates, pepino y cebolla.</paso>
+            <paso>Agrega las aceitunas y el queso feta por encima.</paso>
+            <paso>Mezcla el aceite de oliva, vinagre balsámico, orégano, sal y pimienta para el aderezo.</paso>
+            <paso>Vierte el aderezo sobre la ensalada y mezcla con suavidad.</paso>
+            <paso>Deja reposar 5 minutos antes de servir para que se integren los sabores.</paso>
+        </pasos>
+        <consejo>Usa siempre ingredientes frescos y de temporada. Puedes agregar aguacate en cubos o nueces tostadas para más textura. Si quieres una versión más ligera, reduce el queso feta a 60 g. El aderezo de limón también funciona muy bien en lugar del balsámico.</consejo>
+        <slug>ensalada-mediterranea</slug>
+    </receta>
+
+    <receta>
+        <nombre>Pasta a la Carbonara</nombre>
+        <categoria>Plato Fuerte</categoria>
+        <tiempo>40 min</tiempo>
+        <dificultad>Fácil</dificultad>
+        <porciones>6 personas</porciones>
+        <calorias>620 kcal</calorias>
+        <imagen>../img/pasta-a-la-carbonara.jpg</imagen>
+        <descripcion>La auténtica carbonara romana: spaghetti al dente bañados en una salsa cremosa de yemas, queso parmesano y guanciale crujiente. Sin crema, sin atajos — pura técnica italiana que enamora a cada bocado.</descripcion>
+        <nutricion>
+            <grasas>24g</grasas>
+            <proteina>24g</proteina>
+            <carbohidratos>54g</carbohidratos>
+        </nutricion>
+        <ingredientes>
+            <ingrediente>500 g de pasta (spaghetti o rigatoni)</ingrediente>
+            <ingrediente>200 g de guanciale (o panceta)</ingrediente>
+            <ingrediente>5 yemas de huevo</ingrediente>
+            <ingrediente>1 huevo entero</ingrediente>
+            <ingrediente>100 g de queso parmesano rallado</ingrediente>
+            <ingrediente>Pimienta negra recién molida al gusto</ingrediente>
+            <ingrediente>Sal (solo para el agua de cocción)</ingrediente>
+        </ingredientes>
+        <pasos>
+            <paso>Cuece la pasta al dente en agua generosamente salada. Reserva 1 taza del agua de cocción antes de escurrir.</paso>
+            <paso>En una sartén sin aceite, fríe el guanciale cortado en tiras hasta que esté dorado y crujiente. Apaga el fuego y reserva.</paso>
+            <paso>Bate las yemas con el huevo entero, el queso parmesano rallado y abundante pimienta negra recién molida.</paso>
+            <paso>Escurre la pasta y agrégala directamente a la sartén con el guanciale (sin fuego).</paso>
+            <paso>Vierte la mezcla de huevo y queso sobre la pasta, revolviendo rápido. Agrega cucharadas del agua de cocción para lograr una textura cremosa y sedosa.</paso>
+            <paso>Sirve de inmediato con más queso y pimienta por encima.</paso>
+        </pasos>
+        <consejo>Nunca uses crema: la textura cremosa se logra únicamente con las yemas, el queso y el agua de cocción con almidón. El truco clave es mezclar fuera del fuego para que el huevo no se cuaje. Si no consigues guanciale, la panceta ahumada es la mejor alternativa.</consejo>
+        <slug>pasta-carbonara</slug>
+    </receta>
+
+    <receta>
+        <nombre>Tiramisu</nombre>
+        <categoria>Postre</categoria>
+        <tiempo>25 min</tiempo>
+        <dificultad>Fácil</dificultad>
+        <porciones>6 personas</porciones>
+        <calorias>420 kcal</calorias>
+        <imagen>../img/tiramisu.jpg</imagen>
+        <descripcion>El clásico postre italiano con capas de soletas empapadas en café espresso y una crema suave de mascarpone. Elegante, sin horno y con ese equilibrio perfecto entre lo dulce y lo amargo.</descripcion>
+        <nutricion>
+            <grasas>28g</grasas>
+            <proteina>6g</proteina>
+            <carbohidratos>35g</carbohidratos>
+        </nutricion>
+        <ingredientes>
+            <ingrediente>2 paquete de soletas o bizcotelas (Ladyfingers)</ingrediente>
+            <ingrediente>500 g de queso mascarpone o queso crema</ingrediente>
+            <ingrediente>250 ml de crema para batir</ingrediente>
+            <ingrediente>8 a 9 cucharadas de azúcar</ingrediente>
+            <ingrediente>2 taza de café espresso frío</ingrediente>
+            <ingrediente>Cacao en polvo sin azúcar para espolvorear</ingrediente>
+        </ingredientes>
+        <pasos>
+            <paso>Bate el queso mascarpone con la crema para batir y el azúcar hasta obtener una mezcla suave y firme.</paso>
+            <paso>Prepara el café espresso y déjalo enfriar completamente.</paso>
+            <paso>Sumerge brevemente cada soleta en el café frío (solo 1 segundo por cada lado para que no se deshagan).</paso>
+            <paso>En un molde rectangular, forma la primera capa de soletas empapadas en café.</paso>
+            <paso>Extiende una capa generosa de la crema de mascarpone sobre las soletas.</paso>
+            <paso>Repite el proceso con otra capa de soletas y termina cubriendo con crema.</paso>
+            <paso>Espolvorea generosamente con cacao en polvo y refrigera mínimo 2 a 3 horas antes de servir.</paso>
+        </pasos>
+        <consejo>El secreto está en no remojar demasiado las soletas: un segundo de cada lado es suficiente. Si las dejas más tiempo se deshacen y arruinan la textura. Para mejores resultados, refrigera el tiramisu de 6 a 8 horas, o incluso de un día para otro: los sabores se integran mucho mejor.</consejo>
+        <slug>tiramisu</slug>
+    </receta>
+
+    <receta>
+        <nombre>Ramen</nombre>
+        <categoria>Entrada</categoria>
+        <tiempo>1 h 15 min</tiempo>
+        <dificultad>Intermedio</dificultad>
+        <porciones>6 personas</porciones>
+        <calorias>480 kcal</calorias>
+        <imagen>../img/ramen.jpg</imagen>
+        <descripcion>Sopa tradicional japonesa con caldo profundo y aromático, fideos elásticos, proteínas variadas y verduras frescas. Un tazón reconfortante con capas de sabor que se construyen con paciencia y buenos ingredientes.</descripcion>
+        <nutricion>
+            <grasas>15g</grasas>
+            <proteina>38g</proteina>
+            <carbohidratos>46g</carbohidratos>
+        </nutricion>
+        <ingredientes>
+            <ingrediente>2 litros de agua o caldo de res</ingrediente>
+            <ingrediente>2 cucharadas de aceite de ajonjolí (sésamo)</ingrediente>
+            <ingrediente>1 cucharada de jengibre fresco picado</ingrediente>
+            <ingrediente>3 dientes de ajo machacados</ingrediente>
+            <ingrediente>1 cebolla blanca en cuartos</ingrediente>
+            <ingrediente>2 cucharadas de salsa de soya baja en sodio</ingrediente>
+            <ingrediente>1 cucharada de miso (opcional)</ingrediente>
+            <ingrediente>1 cubo de consomé de res o pollo</ingrediente>
+            <ingrediente>2 cucharadas de vinagre de arroz o manzana</ingrediente>
+            <ingrediente>500 g de pechuga de pollo en tiras</ingrediente>
+            <ingrediente>200 g de carne de res (falda o lomo)</ingrediente>
+            <ingrediente>6 huevos</ingrediente>
+            <ingrediente>200 g de tofu firme en cubos (opcional)</ingrediente>
+            <ingrediente>500 g de fideos ramen integrales o normales</ingrediente>
+            <ingrediente>1 zanahoria grande en tiras</ingrediente>
+            <ingrediente>1 taza de espinaca o acelga</ingrediente>
+            <ingrediente>1 taza de brotes de soya</ingrediente>
+            <ingrediente>1 puerro o cebollín en rodajas finas</ingrediente>
+            <ingrediente>1 taza de champiñones (shiitake o blancos)</ingrediente>
+            <ingrediente>Algas nori en tiras (opcional)</ingrediente>
+        </ingredientes>
+        <pasos>
+            <paso>Calienta el aceite de ajonjolí en una olla grande a fuego medio. Sofríe el ajo y el jengibre por 2 minutos hasta que aromen.</paso>
+            <paso>Agrega la cebolla en cuartos y deja dorar ligeramente por 3 minutos más.</paso>
+            <paso>Vierte el agua o caldo, la salsa de soya, el miso y el consomé. Lleva a ebullición y luego baja el fuego. Cocina a fuego bajo por 30 minutos.</paso>
+            <paso>Mientras tanto, cuece los huevos en agua hirviendo por 7 minutos para obtener una yema semilíquida. Enfría en agua con hielo, pela y reserva.</paso>
+            <paso>En una sartén aparte, cocina el pollo y la carne en tiras con un poco de soya hasta que estén dorados. Reserva.</paso>
+            <paso>Cuece los fideos ramen según las indicaciones del paquete. Escurre y divide en los tazones.</paso>
+            <paso>Cuela el caldo y viértelo sobre los fideos. Añade el vinagre de arroz al gusto.</paso>
+            <paso>Coloca encima las proteínas, los huevos cortados a la mitad, las verduras, los brotes de soya, el cebollín y las algas. Sirve de inmediato.</paso>
+        </pasos>
+        <consejo>El secreto del ramen está en el caldo: entre más tiempo lo dejes reducir, más concentrado y sabroso quedará. Para los huevos, usa el truco de agua con hielo justo al sacarlos para detener la cocción y lograr la yema cremosa perfecta. Los fideos se ablandan rápido, así que agrégalos justo antes de servir.</consejo>
+        <slug>ramen</slug>
+    </receta>
+
+    <receta>
+        <nombre>Rajas de Res con Chile Morrón</nombre>
+        <categoria>Plato Fuerte</categoria>
+        <tiempo>35 min</tiempo>
+        <dificultad>Fácil</dificultad>
+        <porciones>4 personas</porciones>
+        <calorias>420 kcal</calorias>
+        <imagen>../img/rajas-res-chile-morron.jpg</imagen>
+        <descripcion>Deliciosas tiras de carne de res salteadas con chile morrón de colores y cebolla. Un platillo casero, rápido y lleno de sabor, ideal para acompañar con arroz o tortillas calientes.</descripcion>
+        <nutricion>
+            <grasas>18g</grasas>
+            <proteina>35g</proteina>
+            <carbohidratos>12g</carbohidratos>
+        </nutricion>
+        <ingredientes>
+            <ingrediente>500 g de bistec de res en tiras</ingrediente>
+            <ingrediente>1 chile morrón rojo en tiras</ingrediente>
+            <ingrediente>1 chile morrón verde en tiras</ingrediente>
+            <ingrediente>1 cebolla mediana en julianas</ingrediente>
+            <ingrediente>2 dientes de ajo picados</ingrediente>
+            <ingrediente>2 cucharadas de aceite vegetal</ingrediente>
+            <ingrediente>1 cucharada de salsa inglesa</ingrediente>
+            <ingrediente>Sal al gusto</ingrediente>
+            <ingrediente>Pimienta al gusto</ingrediente>
+        </ingredientes>
+        <pasos>
+            <paso>Calienta el aceite en una sartén grande a fuego medio-alto.</paso>
+            <paso>Agrega la carne y cocina durante 5 a 7 minutos hasta que se dore.</paso>
+            <paso>Incorpora el ajo y la cebolla. Sofríe durante 3 minutos.</paso>
+            <paso>Añade los chiles morrones en tiras y mezcla bien.</paso>
+            <paso>Sazona con sal, pimienta y salsa inglesa.</paso>
+            <paso>Cocina por 8 minutos más hasta que los vegetales estén suaves pero firmes.</paso>
+            <paso>Sirve caliente acompañado de arroz o tortillas.</paso>
+        </pasos>
+        <consejo>Para una carne más suave, marina las tiras de res con un poco de jugo de limón y salsa inglesa durante 20 minutos antes de cocinarlas.</consejo>
+        <slug>rajas-res-chile-morron</slug>
+    </receta>
+
+    <receta>
+        <nombre>Pollo con Papas</nombre>
+        <categoria>Plato Fuerte</categoria>
+        <tiempo>45 min</tiempo>
+        <dificultad>Fácil</dificultad>
+        <porciones>4 personas</porciones>
+        <calorias>390 kcal</calorias>
+        <imagen>../img/pollo-papas.jpg</imagen>
+        <descripcion>Una combinación clásica de pollo dorado y papas suaves cocinadas con especias sencillas. Perfecta para una comida familiar.</descripcion>
+        <nutricion>
+            <grasas>14g</grasas>
+            <proteina>32g</proteina>
+            <carbohidratos>28g</carbohidratos>
+        </nutricion>
+        <ingredientes>
+            <ingrediente>600 g de pechuga de pollo en cubos</ingrediente>
+            <ingrediente>3 papas medianas en cubos</ingrediente>
+            <ingrediente>1 cebolla picada</ingrediente>
+            <ingrediente>2 dientes de ajo picados</ingrediente>
+            <ingrediente>2 cucharadas de aceite</ingrediente>
+            <ingrediente>Sal al gusto</ingrediente>
+            <ingrediente>Pimienta al gusto</ingrediente>
+            <ingrediente>1 cucharadita de paprika</ingrediente>
+        </ingredientes>
+        <pasos>
+            <paso>Calienta el aceite en una sartén amplia.</paso>
+            <paso>Dora el pollo durante 6 minutos.</paso>
+            <paso>Agrega la cebolla y el ajo y sofríe por 2 minutos.</paso>
+            <paso>Incorpora las papas y sazona con sal, pimienta y paprika.</paso>
+            <paso>Tapa y cocina a fuego medio durante 20 minutos, moviendo ocasionalmente.</paso>
+            <paso>Cuando las papas estén suaves y el pollo cocido, retira del fuego.</paso>
+            <paso>Sirve caliente.</paso>
+        </pasos>
+        <consejo>Si deseas más sabor, agrega un poco de caldo de pollo durante la cocción.</consejo>
+        <slug>pollo-con-papas</slug>
+    </receta>
+
+    <receta>
+        <nombre>Carne con Calabacitas</nombre>
+        <categoria>Plato Fuerte</categoria>
+        <tiempo>30 min</tiempo>
+        <dificultad>Fácil</dificultad>
+        <porciones>4 personas</porciones>
+        <calorias>350 kcal</calorias>
+        <imagen>../img/carne-calabacitas.jpg</imagen>
+        <descripcion>Carne de res salteada con calabacitas tiernas y cebolla. Una receta práctica, nutritiva y económica para cualquier día de la semana.</descripcion>
+        <nutricion>
+            <grasas>16g</grasas>
+            <proteina>33g</proteina>
+            <carbohidratos>10g</carbohidratos>
+        </nutricion>
+        <ingredientes>
+            <ingrediente>500 g de carne de res en tiras</ingrediente>
+            <ingrediente>2 calabacitas en medias lunas</ingrediente>
+            <ingrediente>1 cebolla mediana en julianas</ingrediente>
+            <ingrediente>2 dientes de ajo picados</ingrediente>
+            <ingrediente>2 cucharadas de aceite vegetal</ingrediente>
+            <ingrediente>Sal al gusto</ingrediente>
+            <ingrediente>Pimienta al gusto</ingrediente>
+        </ingredientes>
+        <pasos>
+            <paso>Calienta el aceite en una sartén.</paso>
+            <paso>Cocina la carne hasta que se dore.</paso>
+            <paso>Agrega la cebolla y el ajo y sofríe por 3 minutos.</paso>
+            <paso>Incorpora las calabacitas y sazona con sal y pimienta.</paso>
+            <paso>Cocina durante 10 minutos hasta que las verduras estén suaves.</paso>
+            <paso>Sirve caliente acompañado de arroz o frijoles.</paso>
+        </pasos>
+        <consejo>No cocines demasiado las calabacitas para que mantengan una textura agradable.</consejo>
+        <slug>carne-con-calabacitas</slug>
+    </receta>
+
+    <receta>
+        <nombre>Arroz con Leche</nombre>
+        <categoria>Postre</categoria>
+        <tiempo>45 min</tiempo>
+        <dificultad>Fácil</dificultad>
+        <porciones>6 personas</porciones>
+        <calorias>280 kcal</calorias>
+        <imagen>../img/arroz-con-leche.jpg</imagen>
+        <descripcion>Tradicional postre elaborado con arroz, leche y canela. Cremoso, aromático y perfecto para disfrutar frío o caliente.</descripcion>
+        <nutricion>
+            <grasas>7g</grasas>
+            <proteina>6g</proteina>
+            <carbohidratos>48g</carbohidratos>
+        </nutricion>
+        <ingredientes>
+            <ingrediente>1 taza de arroz</ingrediente>
+            <ingrediente>1 litro de leche</ingrediente>
+            <ingrediente>1 taza de agua</ingrediente>
+            <ingrediente>1 rama de canela</ingrediente>
+            <ingrediente>1 lata de leche condensada</ingrediente>
+            <ingrediente>Canela en polvo al gusto</ingrediente>
+        </ingredientes>
+        <pasos>
+            <paso>Hierve el agua con la rama de canela.</paso>
+            <paso>Agrega el arroz y cocina hasta que absorba la mayor parte del líquido.</paso>
+            <paso>Incorpora la leche y cocina a fuego bajo durante 20 minutos.</paso>
+            <paso>Añade la leche condensada y mezcla constantemente.</paso>
+            <paso>Retira la rama de canela y deja enfriar.</paso>
+            <paso>Sirve espolvoreando canela en polvo.</paso>
+        </pasos>
+        <consejo>Si lo prefieres más cremoso, agrega media taza extra de leche al final de la cocción.</consejo>
+        <slug>arroz-con-leche</slug>
+    </receta>
+
+    <receta>
+        <nombre>Crema de Champiñones</nombre>
+        <categoria>Entrada</categoria>
+        <tiempo>40 min</tiempo>
+        <dificultad>Fácil</dificultad>
+        <porciones>4 personas</porciones>
+        <calorias>260 kcal</calorias>
+        <imagen>../img/crema-champinones.jpg</imagen>
+        <descripcion>Crema suave y aterciopelada elaborada con champiñones frescos y un toque de crema. Ideal como entrada elegante.</descripcion>
+        <nutricion>
+            <grasas>14g</grasas>
+            <proteina>7g</proteina>
+            <carbohidratos>18g</carbohidratos>
+        </nutricion>
+        <ingredientes>
+            <ingrediente>400 g de champiñones rebanados</ingrediente>
+            <ingrediente>1/2 cebolla picada</ingrediente>
+            <ingrediente>2 cucharadas de mantequilla</ingrediente>
+            <ingrediente>1 litro de caldo de pollo</ingrediente>
+            <ingrediente>200 ml de crema para cocinar</ingrediente>
+            <ingrediente>Sal y pimienta al gusto</ingrediente>
+        </ingredientes>
+        <pasos>
+            <paso>Derrite la mantequilla y sofríe la cebolla.</paso>
+            <paso>Agrega los champiñones y cocina durante 8 minutos.</paso>
+            <paso>Incorpora el caldo y cocina 15 minutos.</paso>
+            <paso>Licúa la mezcla hasta obtener una consistencia homogénea.</paso>
+            <paso>Regresa a la olla y agrega la crema.</paso>
+            <paso>Sazona con sal y pimienta y cocina 5 minutos más.</paso>
+        </pasos>
+        <consejo>Reserva algunos champiñones salteados para decorar al servir.</consejo>
+        <slug>crema-de-champinones</slug>
+    </receta>
+</recetas>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Perfil | Ximkha</title>
+    <link rel="stylesheet" href="../css/estilos.css" />
+</head>
+<body>
+
+<header>
+    <nav class="barra-navegacion">
+        <ul class="menu izquierda">
+            <li><a href="recetas.html">Recetas</a></li>
+            <li><a href="consejos.html">Consejos</a></li>
+        </ul>
+        <a href="../index.html" class="logo">Ximkha</a>
+        <ul class="menu derecha">
+            <li><a href="favoritos.html" class="icono" title="Favoritos">❤️</a></li>
+            <li><a href="usuario.html" class="icono" title="Usuario">👤</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="seccion-usuario">
+    <div class="breadcrumb">
+        <a href="../index.html">Inicio</a> / <span>Mi Perfil</span>
+    </div>
+
+    <div class="contenedor-usuario">
+        <div class="perfil-usuario">
+            <div class="avatar-usuario">
+                <img id="avatar-imagen" src="https://via.placeholder.com/150x150/0a0a0a/c8873a?text=👤" alt="Avatar del usuario" />
+                <button id="btn-cambiar-avatar" class="btn-cambiar-avatar">📷</button>
+            </div>
+            <div class="info-usuario">
+                <h1 id="nombre-usuario">Usuario Anónimo</h1>
+                <p id="email-usuario">usuario@example.com</p>
+                <p class="fecha-registro">Miembro desde: <span id="fecha-registro">Enero 2026</span></p>
+            </div>
+        </div>
+
+        <div class="estadisticas-usuario">
+            <div class="stat-card">
+                <div class="stat-numero" id="total-favoritos">0</div>
+                <div class="stat-titulo">Recetas Favoritas</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-numero" id="recetas-cocinadas">0</div>
+                <div class="stat-titulo">Recetas Cocinadas</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-numero" id="tiempo-cocina">0</div>
+                <div class="stat-titulo">Horas en Cocina</div>
+            </div>
+        </div>
+
+        <div class="formulario-perfil">
+            <h2>Editar Perfil</h2>
+            <form id="form-perfil">
+                <div class="campo-formulario">
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" />
+                </div>
+                <div class="campo-formulario">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" placeholder="tu@email.com" />
+                </div>
+                <div class="campo-formulario">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="(123) 456-7890" />
+                </div>
+                <div class="campo-formulario">
+                    <label for="fecha-nacimiento">Fecha de nacimiento</label>
+                    <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" />
+                </div>
+                <div class="campo-formulario">
+                    <label for="bio">Sobre mí</label>
+                    <textarea id="bio" name="bio" placeholder="Cuéntanos sobre ti y tus gustos culinarios..." rows="4"></textarea>
+                </div>
+                <div class="botones-formulario">
+                    <button type="submit" class="btn-guardar">Guardar Cambios</button>
+                    <button type="button" class="btn-cancelar" id="btn-cancelar">Cancelar</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="preferencias-usuario">
+            <h2>Preferencias</h2>
+            <div class="opciones-preferencias">
+                <div class="opcion-preferencia">
+                    <label class="switch">
+                        <input type="checkbox" id="notificaciones">
+                        <span class="slider"></span>
+                    </label>
+                    <div class="info-opcion">
+                        <h3>Notificaciones</h3>
+                        <p>Recibir notificaciones sobre nuevas recetas</p>
+                    </div>
+                </div>
+                <div class="opcion-preferencia">
+                    <label class="switch">
+                        <input type="checkbox" id="newsletter">
+                        <span class="slider"></span>
+                    </label>
+                    <div class="info-opcion">
+                        <h3>Newsletter</h3>
+                        <p>Recibir el boletín semanal con recetas destacadas</p>
+                    </div>
+                </div>
+                <div class="opcion-preferencia">
+                    <label class="switch">
+                        <input type="checkbox" id="tema-oscuro">
+                        <span class="slider"></span>
+                    </label>
+                    <div class="info-opcion">
+                        <h3>Tema oscuro</h3>
+                        <p>Cambiar a modo oscuro para una mejor experiencia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="acciones-cuenta">
+            <h2>Configuración de Cuenta</h2>
+            <div class="botones-cuenta">
+                <button class="btn-cambiar-password">🔑 Cambiar Contraseña</button>
+                <button class="btn-exportar-datos">📥 Exportar Mis Datos</button>
+                <button class="btn-eliminar-cuenta">🗑️ Eliminar Cuenta</button>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2026 Ximkha — Cocina con alma</p>
+</footer>
+
+<script src="../js/usuario.js"></script>
+</body>
+</html>

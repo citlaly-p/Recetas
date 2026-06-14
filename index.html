@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ximkha - Cocina con alma</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<header>
+    <nav class="barra-navegacion">
+        <ul class="menu izquierda">
+            <li><a href="html/recetas.html">Recetas</a></li>
+            <li><a href="html/consejos.html">Consejos</a></li>
+        </ul>
+        <a href="index.html" class="logo">Ximkha</a>
+        <ul class="menu derecha">
+            <li><a href="html/favoritos.html" class="icono" title="Favoritos">❤️</a></li>
+            <li><a href="html/usuario.html" class="icono" title="Usuario">👤</a></li>
+            <li><a href="html/login.html">Login</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <!-- HERO -->
+    <section class="hero">
+        <span class="hero-badge">✦ Cocina con alma</span>
+        <h1>El sabor que <em>inspira</em><br>tu mejor versión</h1>
+        <p class="hero-subtitulo">Recetas auténticas, consejos de cocina y todo lo que necesitas para disfrutar cada comida al máximo.</p>
+        <div class="hero-botones">
+            <a href="html/recetas.html" class="btn-primario">🍳 Explorar recetas</a>
+            <a href="html/consejos.html" class="btn-secundario">💡 Tips de cocina</a>
+        </div>
+        <div class="hero-stats">
+            <div class="hero-stat">
+                <span class="hero-stat-num">4+</span>
+                <span class="hero-stat-label">Recetas</span>
+            </div>
+            <div class="hero-stat">
+                <span class="hero-stat-num">12</span>
+                <span class="hero-stat-label">Consejos</span>
+            </div>
+            <div class="hero-stat">
+                <span class="hero-stat-num">100%</span>
+                <span class="hero-stat-label">Delicioso</span>
+            </div>
+        </div>
+        <div class="hero-divider"></div>
+    </section>
+
+    <!-- RECETAS DESTACADAS -->
+    <section class="seccion-recetas" style="background: var(--gris-suave);">
+        <div class="seccion-header">
+            <h2>Recetas destacadas</h2>
+            <a href="html/recetas.html">Ver todas →</a>
+        </div>
+        <div id="recetas-destacadas" class="grid-recetas">
+            <p style="text-align:center;color:var(--texto-suave);padding:40px;">Cargando recetas...</p>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Ximkha — Cocina con alma</p>
+</footer>
+
+<script src="js/favoritos.js"></script>
+<script>
+    // Carga las primeras 3 recetas del XML para mostrar en la portada
+    function cargarDestacadas() {
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function () {
+            const xml = xhttp.responseXML;
+            const lista = xml.getElementsByTagName("receta");
+            const contenedor = document.getElementById("recetas-destacadas");
+            let html = "";
+
+            const total = Math.min(lista.length, 3); // Solo las primeras 3
+            for (let i = 0; i < total; i++) {
+                const nombre = lista[i].getElementsByTagName("nombre")[0].childNodes[0].nodeValue;
+                const categoria = lista[i].getElementsByTagName("categoria")[0].childNodes[0].nodeValue;
+                const tiempo = lista[i].getElementsByTagName("tiempo")[0].childNodes[0].nodeValue;
+                const dificultad = lista[i].getElementsByTagName("dificultad")[0].childNodes[0].nodeValue;
+                const porciones = lista[i].getElementsByTagName("porciones")[0].childNodes[0].nodeValue;
+                const calorias = lista[i].getElementsByTagName("calorias")[0].childNodes[0].nodeValue;
+                const imagen = lista[i].getElementsByTagName("imagen")[0].childNodes[0].nodeValue;
+                const slug = lista[i].getElementsByTagName("slug")[0].childNodes[0].nodeValue;
+
+                html += `
+                    <a href="detalle.html?id=${i}" class="tarjeta-receta">
+                        <div class="tarjeta-imagen">
+                            <img src="${imagen}" alt="${nombre}" />
+                            <span class="tarjeta-categoria">${categoria}</span>
+                            <span class="tarjeta-badge">⏱ ${tiempo}</span>
+                            <button class="btn-favorito-flotante btn-favorito-grande"
+                                    data-receta="${slug}"
+                                    onclick="event.preventDefault(); event.stopPropagation();">🤍</button>
+                        </div>
+                        <div class="info-receta">
+                            <h3>${nombre}</h3>
+                            <div class="receta-meta">
+                                <span>📊 ${dificultad}</span>
+                                <span>👥 ${porciones}</span>
+                                <span>🔥 ${calorias}</span>
+                            </div>
+                        </div>
+                    </a>`;
+            }
+
+            contenedor.innerHTML = html;
+
+            // Activar favoritos en los botones recién creados
+            if (window.gestorFavoritos) {
+                window.gestorFavoritos.configurarBotonesFavoritos();
+            }
+        };
+        xhttp.open("GET", "../xml/recetas.xml");
+        xhttp.send();
+    }
+
+    document.addEventListener("DOMContentLoaded", cargarDestacadas);
+</script>
+
+</body>
+</html>

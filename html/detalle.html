@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Receta | Ximkha</title>
+    <link rel="stylesheet" href="../css/estilos.css" />
+</head>
+<body>
+
+<header>
+    <nav class="barra-navegacion">
+        <ul class="menu izquierda">
+            <li><a href="recetas.html">Recetas</a></li>
+            <li><a href="consejos.html">Consejos</a></li>
+        </ul>
+        <a href="../index.html" class="logo">Ximkha</a>
+        <ul class="menu derecha">
+            <li><a href="favoritos.html" class="icono" title="Favoritos">❤️</a></li>
+            <li><a href="usuario.html" class="icono" title="Usuario">👤</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="contenido-receta">
+    <div class="breadcrumb">
+        <a href="../index.html">Inicio</a> /
+        <a href="recetas.html">Recetas</a> /
+        <span id="breadcrumb-receta">Cargando...</span>
+    </div>
+
+    <div class="contenedor-receta">
+
+        <div class="header-receta">
+            <div class="imagen-receta">
+                <img id="detalle-imagen" src="" alt="" />
+            </div>
+
+            <div class="info-basica">
+                <span id="detalle-categoria" class="tarjeta-categoria" style="display:inline-block;margin-bottom:10px;"></span>
+                <h1 id="detalle-nombre">Cargando...</h1>
+
+                <div class="datos-receta">
+                    <div class="dato"><span class="icono-dato">⏱️</span><span id="detalle-tiempo"></span></div>
+                    <div class="dato"><span class="icono-dato">📊</span><span id="detalle-dificultad"></span></div>
+                    <div class="dato"><span class="icono-dato">👥</span><span id="detalle-porciones"></span></div>
+                    <div class="dato"><span class="icono-dato">🔥</span><span id="detalle-calorias"></span></div>
+                    <button class="btn-favorito-grande" id="btn-favorito-detalle" data-receta="">🤍</button>
+                </div>
+
+                <div class="descripcion">
+                    <h3>Descripción</h3>
+                    <p id="detalle-descripcion"></p>
+                </div>
+
+                <div class="tabla-nutricional">
+                    <h3>Información Nutricional</h3>
+                    <div class="valores-nutricionales">
+                        <div class="valor-nutricional"><span class="numero" id="detalle-calorias-num"></span><span class="unidad">kcal</span></div>
+                        <div class="valor-nutricional"><span class="numero" id="detalle-grasas"></span><span class="unidad">grasas</span></div>
+                        <div class="valor-nutricional"><span class="numero" id="detalle-proteina"></span><span class="unidad">proteína</span></div>
+                        <div class="valor-nutricional"><span class="numero" id="detalle-carbohidratos"></span><span class="unidad">carbohidratos</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contenido-receta-detalle">
+            <div class="ingredientes">
+                <h2>Ingredientes</h2>
+                <ul class="lista-ingredientes" id="detalle-ingredientes"></ul>
+            </div>
+            <div class="pasos">
+                <h2>Pasos</h2>
+                <ol class="lista-pasos" id="detalle-pasos"></ol>
+            </div>
+        </div>
+
+        <div class="consejos">
+            <h3>💡 Consejos</h3>
+            <p id="detalle-consejo"></p>
+        </div>
+
+        <div style="padding: 24px 48px;">
+            <button onclick="window.location.href='recetas.html'" class="btn-secundario">← Volver al catálogo</button>
+        </div>
+
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2026 Ximkha — Cocina con alma</p>
+</footer>
+
+<script src="../js/favoritos.js"></script>
+<script src="../js/detalle.js"></script>
+
+</body>
+</html>

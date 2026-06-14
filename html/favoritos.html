@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Favoritos | Ximkha</title>
+    <link rel="stylesheet" href="../css/estilos.css" />
+</head>
+<body>
+
+<header>
+    <nav class="barra-navegacion">
+        <ul class="menu izquierda">
+            <li><a href="recetas.html">Recetas</a></li>
+            <li><a href="consejos.html">Consejos</a></li>
+        </ul>
+        <a href="../index.html" class="logo">Ximkha</a>
+        <ul class="menu derecha">
+            <li><a href="favoritos.html" class="icono" title="Favoritos">❤️</a></li>
+            <li><a href="usuario.html" class="icono" title="Usuario">👤</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="seccion-favoritos">
+    <div class="breadcrumb">
+        <a href="../index.html">Inicio</a> / <span>Favoritos</span>
+    </div>
+
+    <div class="header-favoritos">
+        <h2>Mis Recetas Favoritas</h2>
+        <p class="contador-favoritos">
+            <span id="contador">0</span> recetas guardadas
+        </p>
+    </div>
+
+    <div id="mensaje-vacio" class="mensaje-vacio">
+        <div class="icono-corazon">💔</div>
+        <h3>No tienes recetas favoritas aún</h3>
+        <p>Explora nuestras recetas y guarda las que más te gusten tocando el corazón ❤️</p>
+        <a href="recetas.html" class="btn-explorar">🍳 Explorar recetas</a>
+    </div>
+
+    <div id="grid-favoritos" class="grid-recetas" style="max-width:1280px;margin:0 auto;display:none;"></div>
+
+    <div class="acciones-favoritos">
+        <button id="btn-limpiar" class="btn-limpiar" style="display:none;">Limpiar todos los favoritos</button>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2026 Ximkha — Cocina con alma</p>
+</footer>
+
+<script src="../js/favoritos.js"></script>
+
+</body>
+</html>

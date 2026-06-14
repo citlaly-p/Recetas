@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usuarios xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="usuarios.xsd">
+
+    <usuario>
+        <nombre>Ana García</nombre>
+        <email>ana@ximkha.com</email>
+        <password>ana123</password>
+        <fechaRegistro>2026-01-15</fechaRegistro>
+        <avatar>👩</avatar>
+    </usuario>
+
+    <usuario>
+        <nombre>Carlos López</nombre>
+        <email>carlos@ximkha.com</email>
+        <password>carlos123</password>
+        <fechaRegistro>2026-02-03</fechaRegistro>
+        <avatar>👨</avatar>
+    </usuario>
+
+    <usuario>
+        <nombre>Invitado</nombre>
+        <email>demo@ximkha.com</email>
+        <password>demo</password>
+        <fechaRegistro>2026-01-01</fechaRegistro>
+        <avatar>🧑</avatar>
+    </usuario>
+
+</usuarios>

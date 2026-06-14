@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recetas | Ximkha</title>
+    <link rel="stylesheet" href="../css/estilos.css" />
+</head>
+<body>
+
+<header>
+    <nav class="barra-navegacion">
+        <ul class="menu izquierda">
+            <li><a href="recetas.html">Recetas</a></li>
+            <li><a href="consejos.html">Consejos</a></li>
+        </ul>
+        <a href="../index.html" class="logo">Ximkha</a>
+        <ul class="menu derecha">
+            <li><a href="favoritos.html" class="icono" title="Favoritos">❤️</a></li>
+            <li><a href="usuario.html" class="icono" title="Usuario">👤</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="seccion-recetas">
+    <div class="breadcrumb">
+        <a href="../index.html">Inicio</a> / <span>Recetas</span>
+    </div>
+
+    <div class="seccion-header">
+        <h2>Todas las recetas</h2>
+    </div>
+
+    <div class="controles-recetas">
+        <div class="buscador-recetas">
+            <input
+                type="text"
+                id="buscador"
+                placeholder="🔍 Buscar receta..."
+                autocomplete="off"
+            />
+        </div>
+        <div class="categorias-recetas">
+            <button class="btn-categoria activo" data-categoria="todos">Todos</button>
+            <button class="btn-categoria" data-categoria="Entrada">Entrada</button>
+            <button class="btn-categoria" data-categoria="Plato Fuerte">Plato Fuerte</button>
+            <button class="btn-categoria" data-categoria="Postre">Postre</button>
+            <button class="btn-categoria" data-categoria="Bebida">Bebida</button>
+        </div>
+    </div>
+
+    <p id="sin-resultados" style="display:none;text-align:center;color:var(--texto-suave);padding:40px;">
+        No se encontraron recetas con esos criterios.
+    </p>
+
+    <div id="contenedor-recetas" class="grid-recetas"></div>
+</main>
+
+<footer>
+    <p>&copy; 2026 Ximkha — Cocina con alma</p>
+</footer>
+
+<script src="../js/favoritos.js"></script>
+<script src="../js/recetas.js"></script>
+
+</body>
+</html>

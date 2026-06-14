@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="recetas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="receta" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string" />
+                            <xs:element name="categoria" type="xs:string" />
+                            <xs:element name="tiempo" type="xs:string" />
+                            <xs:element name="dificultad" type="xs:string" />
+                            <xs:element name="porciones" type="xs:string" />
+                            <xs:element name="calorias" type="xs:string" />
+                            <xs:element name="imagen" type="xs:string" />
+                            <xs:element name="descripcion" type="xs:string" />
+                            <xs:element name="nutricion">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="grasas" type="xs:string" />
+                                        <xs:element name="proteina" type="xs:string" />
+                                        <xs:element name="carbohidratos" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="ingredientes">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="ingrediente" type="xs:string"
+                                            maxOccurs="unbounded" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="pasos">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="paso" type="xs:string"
+                                            maxOccurs="unbounded" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="consejo" type="xs:string" />
+                            <xs:element name="slug" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
