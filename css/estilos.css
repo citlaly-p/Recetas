@@ -462,7 +462,7 @@ header {
     flex-direction: column;
     gap: 20px;
     overflow-y: auto;
-    max-height: 420px;
+    max-height: 720px;
 }
 
 .info-basica h1 {
