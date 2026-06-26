@@ -338,4 +338,44 @@
         <consejo>Reserva algunos champiñones salteados para decorar al servir.</consejo>
         <slug>crema-de-champinones</slug>
     </receta>
+        
+    <receta>
+        <nombre>Pay de limón sin horno</nombre>
+        <categoria>Postres</categoria>
+        <tiempo>20 minutos</tiempo>
+        <dificultad>Fácil</dificultad>
+        <porciones>8 porciones</porciones>
+        <calorias>250 kcal por porción</calorias>
+        <imagen>../img/pay-de-limon-sin-horno.jpg</imagen>
+        <descripcion>
+            Un delicioso pay de limón cremoso y refrescante, ideal para días calurosos. No requiere horno, solo refrigeración.
+        </descripcion>
+        <nutricion>
+            <grasas>12g</grasas>
+            <proteina>4g</proteina>
+            <carbohidratos>30g</carbohidratos>
+        </nutricion>
+        <ingredientes>
+            <ingrediente>200 g de galletas María o tipo Digestive</ingrediente>
+            <ingrediente>100 g de mantequilla derretida</ingrediente>
+            <ingrediente>1 lata (395 g) de leche condensada</ingrediente>
+            <ingrediente>1 lata (395 g) de leche evaporada</ingrediente>
+            <ingrediente>3 yemas de huevo</ingrediente>
+            <ingrediente>1/2 taza de jugo de limón fresco (aproximadamente 4-5 limones)</ingrediente>
+            <ingrediente>Ralladura de 1 limón</ingrediente>
+        </ingredientes>
+        <pasos>
+            <paso>Triturar las galletas hasta obtener un polvo fino. Mezclar con la mantequilla derretida hasta integrar bien.</paso>
+            <paso>Forrar el fondo de un molde desmontable (20-22 cm) con la mezcla de galletas y mantequilla. Presionar bien con una cuchara o vaso para compactar. Refrigerar 15 minutos.</paso>
+            <paso>En un tazón, batir las yemas de huevo con la leche condensada y la leche evaporada hasta que quede una mezcla homogénea.</paso>
+            <paso>Agregar el jugo de limón y la ralladura. Mezclar bien hasta que espese ligeramente.</paso>
+            <paso>Vertir la mezcla sobre la base de galletas en el molde. Alisar la superficie con una espátula.</paso>
+            <paso>Refrigerar durante al menos 4 horas (o toda la noche) para que cuaje perfectamente.</paso>
+            <paso>Desmoldar con cuidado y decorar con rodajas de limón o merengue si se desea.</paso>
+        </pasos>
+        <consejo>
+            Para un toque especial, puedes agregar unas gotas de esencia de vainilla a la mezcla de limón. También asegúrate de usar limones frescos para un sabor más intenso.
+        </consejo>
+        <slug>pay-de-limon-sin-horno</slug>
+    </receta>
 </recetas>
